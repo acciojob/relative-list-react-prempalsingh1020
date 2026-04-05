@@ -7,7 +7,7 @@ let Relativeitem = ["mama","pupha","jija","papa","nana"]
 
   return (
     <div>
-        <ul>
+        <ol>
             {
                 Relativeitem.map((persion,index)=>{
                     return <li key={index}>
@@ -15,7 +15,7 @@ let Relativeitem = ["mama","pupha","jija","papa","nana"]
                     </li>
                 })
             }
-        </ul>
+        </ol>
     </div>
   )
 }
